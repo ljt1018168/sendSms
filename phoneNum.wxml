@@ -1,0 +1,15 @@
+    <view class="content_group">
+        <view class="title">输入手机号 :</view>
+        <view class="content">
+            <view class="flex-column">
+                <view class="flex-row">
+                    <input class="form-input" id="phone" maxlength="11" bindinput="bindPhoneChange" placeholder="完整的手机号"/>
+                    <view bindtap="sendSms">
+                        <template is="Kbutton" class="smsbtn"  data="{{value: clockNum === 61 ? clockTxt : clockNum + clockTxt}}"/>
+                    </view>
+                </view>
+            <input class="form-input" id="smscode" maxlength="11" bindinput="bindSmsChange" placeholder="短信验证码"/>
+            </view>
+        </view>
+    </view>
+

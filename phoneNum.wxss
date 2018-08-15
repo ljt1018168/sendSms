@@ -1,0 +1,15 @@
+
+
+#phone {
+    width: 8rem;
+}
+
+#smscode {
+    display: flex;
+}
+
+.content_group .content .kbutton{
+    height: 1.4rem;
+    width: 4rem;
+    margin-left: 3rem;
+}
